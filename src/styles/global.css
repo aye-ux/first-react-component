@@ -1,0 +1,149 @@
+/* App.css */
+
+/* Import modern font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://i.pinimg.com/564x/f4/77/a8/f477a8ea53a5926b952fd792c9c1d2ee.jpg');
+  background-color: #fdf6f9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Profile Card */
+.cmp-profile {
+  width: 100%;
+  max-width: 750px;
+  background: white;
+  border: 2px solid #C6C7CC;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 90px auto;
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: #d63384;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  color: #d63384;
+  font-weight: 500;
+}
+
+/* Text */
+p {
+  font-size: 1.15rem;
+  color: #666;
+  margin-bottom: 1.75rem;
+  line-height: 1.8;
+}
+
+/* Profile Image */
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ffb6c1;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+}
+
+/* Skill List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+li {
+  font-size: 1.05rem;
+  padding: 0.6rem 1rem;
+  color: #d63384;
+  background-color: #f8e9f1;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.05);
+  background-color: #fad8e5;
+}
+
+/* Button */
+button {
+  background-color: #f8c8dc;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(214, 51, 132, 0.2);
+}
+
+button:hover {
+  background-color: #d63384;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(214, 51, 132, 0.3);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 2rem 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 160px;
+    height: 160px;
+  }
+}
