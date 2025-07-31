@@ -1,9 +1,9 @@
 function Skills (){
     return(
         <ul>
-            <li>Eating</li>
-            <li> Sleeping</li>
-            <li>Reading</li>
+            <li>Critical Thinking</li>
+            <li> Adaptability</li>
+            <li>Creativity</li>
         </ul>
     )
 }
